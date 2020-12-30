@@ -1,4 +1,3 @@
 # Google Clone (or almost)
 
-- List item
-- Second list
+#### - [Live Page](https://stbnlen.github.io/google-homepage/ "Live Page")
