@@ -1,0 +1,124 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    font-family: serif;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header p {
+    margin: 6px;
+}
+
+.header p a {
+    text-decoration: none;
+}
+
+.main-bus {
+    margin-top: 120px;
+}
+
+.algo {
+    height: 15px;
+    width: 15px;
+    background-color: #000;
+}
+
+.perfil {
+    border-radius: 50%;
+}
+
+.logo-google {
+    display: flex;
+    justify-content: center;
+}
+
+.buscar {
+    display: flex;
+    justify-content: center;
+}
+
+.barra {
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: 2px solid #eee;
+    text-indent: 20px;
+    outline: none;
+}
+
+.barra:hover {
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.1);
+    /* border: 2px solid rgba(0, 0, 0, 0.1); */
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.btn button {
+    border-style: none;
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.btn button:hover {
+    border: 1px solid rgb(180, 178, 178);
+}
+
+.ofrecido {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    margin-top: 390px;
+}
+.chile {
+    margin-top: 80px;
+    height: 40px;
+    border: 1px solid rgb(173, 166, 166);
+    background-color: rgba(197, 193, 193, 0.3);
+}
+
+.chilen {
+    margin-left: 47px;
+    margin-top: 7px;
+    color: rgb(109, 109, 109);
+}
+
+.foot-list {
+    border: 1px solid rgb(173, 166, 166);
+    height: 42px;
+    background-color: rgba(197, 193, 193, 0.3);
+}
+
+.lista-foot {
+    display: flex;
+    list-style: none;
+}
+
+.lista-foot li {
+    margin: 8px;
+}
+
+.lista-foot li a {
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+}
+
+.lista-foot li a:hover {
+    text-decoration: underline;
+}
